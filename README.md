@@ -44,4 +44,12 @@ Jogo de estratégia por turnos com conquista de territórios, ambientação viki
 
 ## GDD
 
-Ver [GDD/GDD_Saga_do_Norte_v0.1.md](GDD/GDD_Saga_do_Norte_v0.1.md) (documento vivo, atualizado a cada entrega).
+Ver [GDD/GDD_Saga_do_Norte_v0.2.md](GDD/GDD_Saga_do_Norte_v0.2.md) (documento vivo, atualizado a cada entrega).
+
+## Status — Entrega 2 (v0.2)
+
+- Concept art: Thorfinn, Thors e Askeladd (`Art/ConceptArt/`)
+- Cenário do prólogo (cutscene + battle stage) (`LevelDesign/`)
+- Mapa estratégico dos 3 territórios jogáveis (em ajuste) (`LevelDesign/mapa_estrategico_v1.png`)
+- Estrutura de fases e progressão de dificuldade definida no GDD
+- Estilo visual: Pixel Art 16-bit top-down, chibi, referência Stardew Valley/SNES
