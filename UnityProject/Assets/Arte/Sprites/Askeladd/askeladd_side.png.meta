@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: ed928fbb39a170a41a56ed8c3151c675
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7316096493446868156
+    second: askeladd_side (1)_0
+  - first:
+      213: 7185428117984439435
+    second: askeladd_side (1)_1
+  - first:
+      213: 8055201585792239781
+    second: askeladd_side (1)_2
+  - first:
+      213: -7546943208380853554
+    second: askeladd_side (1)_3
+  - first:
+      213: -8654531702378258427
+    second: askeladd_side (1)_4
+  - first:
+      213: -2574267079668551430
+    second: askeladd_side (1)_5
+  - first:
+      213: 8998807442513863042
+    second: askeladd_side (1)_6
+  - first:
+      213: -2663209342495196873
+    second: askeladd_side (1)_7
+  - first:
+      213: -1764410148896313739
+    second: askeladd_side (1)_8
+  - first:
+      213: -8714058107855038007
+    second: askeladd_side (1)_9
+  - first:
+      213: 5664987644280663190
+    second: askeladd_side (1)_10
+  - first:
+      213: -4322288499409814774
+    second: askeladd_side (1)_11
+  - first:
+      213: 3148008065737163279
+    second: askeladd_side (1)_12
+  - first:
+      213: 8420176093971436480
+    second: askeladd_side (1)_13
+  - first:
+      213: -6901480032973126637
+    second: askeladd_side (1)_14
+  - first:
+      213: -6783983341800672234
+    second: askeladd_side (1)_15
+  - first:
+      213: -8441220278169012237
+    second: askeladd_side (1)_16
+  - first:
+      213: -9031969229076393111
+    second: askeladd_side (1)_17
+  - first:
+      213: -6206586279029397987
+    second: askeladd_side (1)_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: askeladd_side (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4435e956001087a90800000000000000
+      internalID: -7316096493446868156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 991
+        width: 131
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ce093adc4c7b360800000000000000
+      internalID: 7185428117984439435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 1007
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a84f4bf923d9cf60800000000000000
+      internalID: 8055201585792239781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 993
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2996c232fd34790800000000000000
+      internalID: -7546943208380853554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 982
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5002366354de4e780800000000000000
+      internalID: -8654531702378258427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 971
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0bf57eabd564cd0800000000000000
+      internalID: -2574267079668551430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 338
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2812e25f0bf22ec70800000000000000
+      internalID: 8998807442513863042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 345
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739721a96316a0bd0800000000000000
+      internalID: -2663209342495196873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 240
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ee0fc515e8387e0800000000000000
+      internalID: -1764410148896313739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 257
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c91039e152711780800000000000000
+      internalID: -8714058107855038007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_10
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 247
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c63528f341e9e40800000000000000
+      internalID: 5664987644280663190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bfbef92852404c0800000000000000
+      internalID: -4322288499409814774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 145
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02045c28a8ffab20800000000000000
+      internalID: 3148008065737163279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 99
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c35763ab897ad470800000000000000
+      internalID: 8420176093971436480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3148f22c9740930a0800000000000000
+      internalID: -6901480032973126637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 13
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614bdcdf7137ad1a0800000000000000
+      internalID: -6783983341800672234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 19
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f779e861e2cada80800000000000000
+      internalID: -8441220278169012237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 27
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96394aee6dff7a280800000000000000
+      internalID: -9031969229076393111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: askeladd_side (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 28
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16a3a2c9a6cdd9a0800000000000000
+      internalID: -6206586279029397987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      askeladd_side (1)_0: -7316096493446868156
+      askeladd_side (1)_1: 7185428117984439435
+      askeladd_side (1)_10: 5664987644280663190
+      askeladd_side (1)_11: -4322288499409814774
+      askeladd_side (1)_12: 3148008065737163279
+      askeladd_side (1)_13: 8420176093971436480
+      askeladd_side (1)_14: -6901480032973126637
+      askeladd_side (1)_15: -6783983341800672234
+      askeladd_side (1)_16: -8441220278169012237
+      askeladd_side (1)_17: -9031969229076393111
+      askeladd_side (1)_18: -6206586279029397987
+      askeladd_side (1)_2: 8055201585792239781
+      askeladd_side (1)_3: -7546943208380853554
+      askeladd_side (1)_4: -8654531702378258427
+      askeladd_side (1)_5: -2574267079668551430
+      askeladd_side (1)_6: 8998807442513863042
+      askeladd_side (1)_7: -2663209342495196873
+      askeladd_side (1)_8: -1764410148896313739
+      askeladd_side (1)_9: -8714058107855038007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
