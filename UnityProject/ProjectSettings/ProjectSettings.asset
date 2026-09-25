@@ -612,8 +612,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Saga do Norte
-  metroPackageVersion: 
+  metroPackageName: SagadoNorte
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -621,7 +621,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Saga do Norte
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Saga do Norte
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

@@ -1,7 +1,7 @@
 # ⚔️ Saga do Norte
 
 > **Jogo de Estratégia Tática por Turnos & Conquista Territorial em Pixel Art 2D**  
-> *Projeto desenvolvido em C# na engine Unity para a disciplina de **Projeto de Jogos Digitais I**.*
+> *Projeto desenvolvido em C# na engine Unity para a disciplina de **Projeto de Jogos Digitais **.*
 
 ---
 
@@ -9,7 +9,16 @@
 
 **Saga do Norte** é um jogo tático por turnos que adapta a saga de Thorfinn (inspirado em *Vinland Saga*). O jogador comanda unidades em embates táticos em grade (*grid*), conquista territórios em um mapa estratégico e acompanha a evolução narrativa do protagonista — desde a perda de seu pai nas Ilhas Faroé até a busca por redenção na Fazenda de Ketil.
 
-> ⚖️ **Nota Acadêmica:** Projeto sem fins lucrativos. O uso de nomes, enredo e personagens adaptados de *Vinland Saga* possui autorização estritamente acadêmica do professor da disciplina.
+> ⚖️ **Nota Acadêmica:** Projeto sem fins lucrativos. O uso de nomes, enredo e personagens adaptados de *Vinland Saga* possui autorização estritamente acadêmica.
+
+---
+
+## ⚙️ Mecânicas Principais
+
+* **Combate Tático de RPG:** Gerenciamento de Vida (HP) e Estamina através de um Menu de Ações em turnos (Ataque Leve, Ataque Pesado, Defesa e Esquiva).
+* **Rolagens e Atributos:** O combate utiliza os atributos base dos personagens (Força e Agilidade) para calcular ocultamente chances de Acerto Crítico, Contra-Ataque e Sucesso de Esquiva.
+* **Mapa de Conquista:** Navegação macro entre batalhas através de um mapa estratégico estilo *Total War*.
+* **Feedback Visual:** Textos flutuantes informam resultados imediatos no cenário ("Crítico!", "Defendido!", "Esquivou!", Valores de Dano).
 
 ---
 
@@ -46,20 +55,22 @@
 | Data | Versão | Etapa |
 |:---:|:---:|---|
 | 03/09 | `v0.1` | Concepção e GDD Inicial |
-| 10/09 | `v0.2` | Direção Visual e Level Design *(Atual)* |
+| 10/09 | `v0.2` | Direção Visual e Level Design |
 | 17/09 | `v0.3` | Protótipo Jogável |
-| 24/09 | `v0.4` | Vertical Slice |
+| 24/09 | `v0.4` | Vertical Slice *(Atual)* |
 | 01/10 | `v0.5` | Beta / Feature Lock |
 | 08/10 | `v1.0` | Versão Final |
 
 ---
 
-## 📊 Status Atual — Entrega 2 (`v0.2`)
+## 📊 Status Atual — Entrega 4 (`v0.4` - Vertical Slice)
 
-* **Artes & Sprites:** Concept arts em Pixel Art 16-bit finalizados para Thorfinn, Thors e Askeladd (`Art/ConceptArt/`).
-* **Level Design:** Visual e tablado de combate do Prólogo concluídos (`LevelDesign/`).
-* **Mapa de Campanha:** Arte do mapa estratégico atualizada cobrindo os 9 territórios (`LevelDesign/mapa_estrategico_v2.png`).
-* **GDD & Documentação:** Atualizado com mecânicas de combate, cutscenes pós-batalha e detalhamento das fases (`GDD/GDD_Saga_do_Norte_v0.2.md`).
+* **Gameplay Integrado:** *Core loop* funcional com transição fluida entre o Mapa Estratégico e a Batalha do Prólogo (`SceneManager`).
+* **Sistema de Combate:** Lógica matemática de atributos totalmente implementada (consumo de estamina, cálculos de dano base e crítico, mecânicas de defesa e esquiva com contra-ataque).
+* **Interface e Feedback:** HUD completo com barras dinâmicas, painel de ações bloqueável durante turnos inimigos e instanciamento de *Damage Numbers* no ambiente de combate.
+* **Integração de Assets:** Sprites em Pixel Art aplicados aos personagens e cenários no Unity, em conformidade com as delimitações de *Level Design*. Implementação base de áudio estruturada.
+* **Narrativa:** Sistema de "Falso Final Feliz" integrado via *Video Player* ativado em condições específicas de vitória alternativa.
+* **GDD & Documentação:** Atualizado para refletir o escopo real e ajustes da sprint (`GDD/GDD_Saga_do_Norte_v0.4.md`).
 
 ---
 
@@ -67,14 +78,14 @@
 
 ```text
 saga-do-norte/
-├── GDD/             # Documentação de design (GDD_Saga_do_Norte_v0.2.md)
+├── GDD/             # Documentação de design viva (GDD_Saga_do_Norte_vX.X)
 ├── UnityProject/    # Código C# e projeto Unity
 ├── Art/
 │   ├── ConceptArt/  # Concept arts dos personagens
 │   ├── ModelSheets/ # Proporções e referências visuais
-│   ├── Sprites/     # Spritesheets de gameplay
+│   ├── Sprites/     # Spritesheets de gameplay integrados
 │   └── UI/          # Elementos de interface e HUD
-├── Animation/       # Animation Controllers e Clipes 2D
+├── Animation/       # (Backlog) Animation Controllers e Clipes 2D
 ├── Audio/
 │   ├── SFX/         # Efeitos sonoros
 │   └── Music/       # Trilha sonora

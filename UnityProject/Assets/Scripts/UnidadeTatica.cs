@@ -1,43 +1,44 @@
 using UnityEngine;
 
+// Ficha de RPG do personagem (Thorfinn, Thors, Askeladd, etc.)
 public class UnidadeTatica : MonoBehaviour
 {
-    [Header("Informações Básicas")]
+    [Header("Identificação")]
     public string nomePersonagem;
-    public int nivel = 1;
-    public int pontosEmVida = 0; // Os pontos que o jogador distribui ao upar
 
     [Header("Atributos Base")]
-    public float vidaBase = 100f;
+    public float VidaMaxima = 100f;
     public float vidaAtual;
+    
     public float estaminaMaxima = 100f;
     public float estaminaAtual;
+    
     public float forca = 10f;
     public float agilidade = 5f;
 
-    // Fórmulas Matemáticas (O símbolo => significa "Calcule isto agora")
+    [Header("Estados de Combate (Memória)")]
+    // Guarda se o personagem clicou no botão de defesa neste turno
+    public bool estaDefendendo = false;
     
-    // Vida Maxima = Base (100) + (Base * (Pontos * 10%))
-    public float VidaMaxima => vidaBase + (vidaBase * (pontosEmVida * 0.10f));
-    
-    // Redução passiva de dano: 10% (0.10) para cada ponto em Vida
-    public float ReducaoDeDanoPassiva => pontosEmVida * 0.10f; 
+    // Guarda se a esquiva foi ativada com sucesso para rolar o contra-ataque
+    public bool preparouEsquiva = false; 
 
-    // Esquiva: 10% base + 5% por ponto de Agilidade
-    public float ChanceDeEsquiva => 10f + (agilidade * 5f); 
+    // --- Atributos Dinâmicos calculados a partir dos atributos base ---
     
-    // Crítico e Contra-Ataque: 5% base + 1% por ponto de Agilidade
-    public float ChanceDeCritico => 5f + (agilidade * 1f);
-    public float ChanceDeContraAtaque => 5f + (agilidade * 1f);
+    // 5% de chance de esquiva para cada ponto de Agilidade
+    public float ChanceDeEsquiva { get { return agilidade * 5f; } }
     
-    // Dano Crítico = (Força * 2) + 10% da força multiplicada por cada ponto
-    public float DanoCritico => (forca * 2f) + (forca * 0.10f * forca);
-
-    public bool estaDefendendo = false; // Avisa se o botão de defesa foi apertado neste turno
+    // 2% de chance de crítico para cada ponto de Agilidade
+    public float ChanceDeCritico { get { return agilidade * 2f; } }
+    
+    // O Crítico causa o dano da Força + 50% de bônus
+    public float DanoCritico { get { return forca * 1.5f; } }
+    
+    // Quanto mais Vida Máxima, mais armadura natural o personagem tem
+    public float ReducaoDeDanoPassiva { get { return VidaMaxima * 0.001f; } }
 
     void Start()
     {
-        // Ao iniciar, a vida e estamina enchem baseadas nas fórmulas acima
         vidaAtual = VidaMaxima;
         estaminaAtual = estaminaMaxima;
     }
