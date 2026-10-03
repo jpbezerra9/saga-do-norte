@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: a790cf6c0ee34534e9d805f308ff6a92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8783964557125054066
+    second: Thorfinn-heavyattack_0
+  - first:
+      213: 8964607853405467827
+    second: Thorfinn-heavyattack_1
+  - first:
+      213: -2234429826497628836
+    second: Thorfinn-heavyattack_2
+  - first:
+      213: -7425930770568274594
+    second: Thorfinn-heavyattack_3
+  - first:
+      213: -1187242951876473495
+    second: Thorfinn-heavyattack_4
+  - first:
+      213: -7847383451829023436
+    second: Thorfinn-heavyattack_5
+  - first:
+      213: -5489065737567597808
+    second: Thorfinn-heavyattack_6
+  - first:
+      213: -5373209966356622074
+    second: Thorfinn-heavyattack_7
+  - first:
+      213: -5861618837632164753
+    second: Thorfinn-heavyattack_8
+  - first:
+      213: -5599312044422404759
+    second: Thorfinn-heavyattack_9
+  - first:
+      213: -3105079229367551835
+    second: Thorfinn-heavyattack_10
+  - first:
+      213: 341169902027052119
+    second: Thorfinn-heavyattack_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 630
+        width: 264
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8190f456c6191680800000000000000
+      internalID: -8783964557125054066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 623
+        width: 214
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4f8ec985fa86c70800000000000000
+      internalID: 8964607853405467827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 623
+        width: 206
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55321c49e5bdf0e0800000000000000
+      internalID: -2234429826497628836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_3
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 623
+        width: 190
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d92a5fe4bc1f890800000000000000
+      internalID: -7425930770568274594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 323
+        width: 199
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d015753d0168fe0800000000000000
+      internalID: -1187242951876473495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 322
+        width: 263
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dc379e35e781390800000000000000
+      internalID: -7847383451829023436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_6
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 322
+        width: 274
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b04834bcbe2d3b0800000000000000
+      internalID: -5489065737567597808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_7
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 322
+        width: 248
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60599bb01068e65b0800000000000000
+      internalID: -5373209966356622074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c523e29b857aea0800000000000000
+      internalID: -5861618837632164753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 23
+        width: 263
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965e2adac5f3b42b0800000000000000
+      internalID: -5599312044422404759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 23
+        width: 243
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a87a1e64ea88e4d0800000000000000
+      internalID: -3105079229367551835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-heavyattack_11
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 24
+        width: 284
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7549062e7341cb400800000000000000
+      internalID: 341169902027052119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thorfinn-heavyattack_0: -8783964557125054066
+      Thorfinn-heavyattack_1: 8964607853405467827
+      Thorfinn-heavyattack_10: -3105079229367551835
+      Thorfinn-heavyattack_11: 341169902027052119
+      Thorfinn-heavyattack_2: -2234429826497628836
+      Thorfinn-heavyattack_3: -7425930770568274594
+      Thorfinn-heavyattack_4: -1187242951876473495
+      Thorfinn-heavyattack_5: -7847383451829023436
+      Thorfinn-heavyattack_6: -5489065737567597808
+      Thorfinn-heavyattack_7: -5373209966356622074
+      Thorfinn-heavyattack_8: -5861618837632164753
+      Thorfinn-heavyattack_9: -5599312044422404759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

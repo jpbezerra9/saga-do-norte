@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 36d8d1e2419fc554dbf460f6d3673e4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8785821373659056444
+    second: Thorfinn-ligthattack 1_0
+  - first:
+      213: -6364753169545231337
+    second: Thorfinn-ligthattack 1_1
+  - first:
+      213: -3958839966469639856
+    second: Thorfinn-ligthattack 1_2
+  - first:
+      213: -7221280905649007028
+    second: Thorfinn-ligthattack 1_3
+  - first:
+      213: -7018715430475435011
+    second: Thorfinn-ligthattack 1_4
+  - first:
+      213: 8166680916335038657
+    second: Thorfinn-ligthattack 1_5
+  - first:
+      213: -5832337763448673218
+    second: Thorfinn-ligthattack 1_6
+  - first:
+      213: -7694272597189214806
+    second: Thorfinn-ligthattack 1_7
+  - first:
+      213: -6120725729975382826
+    second: Thorfinn-ligthattack 1_8
+  - first:
+      213: 3223729650891073899
+    second: Thorfinn-ligthattack 1_9
+  - first:
+      213: -4100465436749756544
+    second: Thorfinn-ligthattack 1_10
+  - first:
+      213: 3940960643526576367
+    second: Thorfinn-ligthattack 1_11
+  - first:
+      213: 5660685340528852347
+    second: Thorfinn-ligthattack 1_12
+  - first:
+      213: 3500094692672331355
+    second: Thorfinn-ligthattack 1_13
+  - first:
+      213: 125954361477384452
+    second: Thorfinn-ligthattack 1_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 647
+        width: 295
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c398bf47df18de970800000000000000
+      internalID: 8785821373659056444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 644
+        width: 213
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7140736d6badba7a0800000000000000
+      internalID: -6364753169545231337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 647
+        width: 229
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05135fb76006f09c0800000000000000
+      internalID: -3958839966469639856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_3
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 643
+        width: 220
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46da7bb64bd8cb90800000000000000
+      internalID: -7221280905649007028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 339
+        width: 230
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df375f2b083889e90800000000000000
+      internalID: -7018715430475435011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 340
+        width: 259
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c09c144601e55170800000000000000
+      internalID: 8166680916335038657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 339
+        width: 286
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cab8784bf5f0fa0800000000000000
+      internalID: -5832337763448673218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_9
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 339
+        width: 214
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69a145990dfcbc20800000000000000
+      internalID: 3223729650891073899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 271
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8423f33da11b630800000000000000
+      internalID: 3940960643526576367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 13
+        width: 289
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dbb7b535bce8e40800000000000000
+      internalID: 5660685340528852347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 13
+        width: 225
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ed6f42495d29030800000000000000
+      internalID: 3500094692672331355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-ligthattack 1_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 13
+        width: 275
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40945cd03da7fb100800000000000000
+      internalID: 125954361477384452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94585ee90e2ad32439f2acdb95e397d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thorfinn-ligthattack 1_0: 8785821373659056444
+      Thorfinn-ligthattack 1_1: -6364753169545231337
+      Thorfinn-ligthattack 1_10: -4100465436749756544
+      Thorfinn-ligthattack 1_11: 3940960643526576367
+      Thorfinn-ligthattack 1_12: 5660685340528852347
+      Thorfinn-ligthattack 1_13: 3500094692672331355
+      Thorfinn-ligthattack 1_14: 125954361477384452
+      Thorfinn-ligthattack 1_2: -3958839966469639856
+      Thorfinn-ligthattack 1_3: -7221280905649007028
+      Thorfinn-ligthattack 1_4: -7018715430475435011
+      Thorfinn-ligthattack 1_5: 8166680916335038657
+      Thorfinn-ligthattack 1_6: -5832337763448673218
+      Thorfinn-ligthattack 1_7: -7694272597189214806
+      Thorfinn-ligthattack 1_8: -6120725729975382826
+      Thorfinn-ligthattack 1_9: 3223729650891073899
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

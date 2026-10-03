@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: a44c9ea302f4c084aa4a038a71db8f66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1896218402869317075
+    second: Thorfinn-dodge_0
+  - first:
+      213: -5021328591164803060
+    second: Thorfinn-dodge_1
+  - first:
+      213: -2999082752537921815
+    second: Thorfinn-dodge_2
+  - first:
+      213: -4978787655855907752
+    second: Thorfinn-dodge_3
+  - first:
+      213: -4925186127440422320
+    second: Thorfinn-dodge_4
+  - first:
+      213: 4744165021378158400
+    second: Thorfinn-dodge_5
+  - first:
+      213: -6545650602720703177
+    second: Thorfinn-dodge_6
+  - first:
+      213: 8352409193454745402
+    second: Thorfinn-dodge_7
+  - first:
+      213: -3562429162611242106
+    second: Thorfinn-dodge_8
+  - first:
+      213: 2760367892218969927
+    second: Thorfinn-dodge_9
+  - first:
+      213: -8421355189602210834
+    second: Thorfinn-dodge_10
+  - first:
+      213: -7878813782068266829
+    second: Thorfinn-dodge_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thorfinn-dodge_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 624
+        width: 288
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d227a60c8674fa5e0800000000000000
+      internalID: -1896218402869317075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 624
+        width: 240
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08fb1f1048a05ab0800000000000000
+      internalID: -5021328591164803060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 624
+        width: 205
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6f9fa502e1166d0800000000000000
+      internalID: -2999082752537921815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_3
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 624
+        width: 251
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cdb98710bc7eab0800000000000000
+      internalID: -4978787655855907752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 319
+        width: 288
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a5b35df4936abb0800000000000000
+      internalID: -4925186127440422320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 321
+        width: 293
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f141783f8a6d140800000000000000
+      internalID: 4744165021378158400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 321
+        width: 285
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73dc209057d2925a0800000000000000
+      internalID: -6545650602720703177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 317
+        width: 267
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37b39298e7b9e370800000000000000
+      internalID: 8352409193454745402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 13
+        width: 231
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b80191d85bf8ec0800000000000000
+      internalID: -3562429162611242106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 9
+        width: 247
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ffa1119fbce4620800000000000000
+      internalID: 2760367892218969927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 9
+        width: 221
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb2e54c216512b80800000000000000
+      internalID: -8421355189602210834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-dodge_11
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 13
+        width: 284
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b87e54eb94d8a290800000000000000
+      internalID: -7878813782068266829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thorfinn-dodge_0: -1896218402869317075
+      Thorfinn-dodge_1: -5021328591164803060
+      Thorfinn-dodge_10: -8421355189602210834
+      Thorfinn-dodge_11: -7878813782068266829
+      Thorfinn-dodge_2: -2999082752537921815
+      Thorfinn-dodge_3: -4978787655855907752
+      Thorfinn-dodge_4: -4925186127440422320
+      Thorfinn-dodge_5: 4744165021378158400
+      Thorfinn-dodge_6: -6545650602720703177
+      Thorfinn-dodge_7: 8352409193454745402
+      Thorfinn-dodge_8: -3562429162611242106
+      Thorfinn-dodge_9: 2760367892218969927
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

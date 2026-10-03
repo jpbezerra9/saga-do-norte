@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 392391480c239084ea93fc82ee4889d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -129111481098068279
+    second: Thorfinn-sprint_0
+  - first:
+      213: -1018151861547051651
+    second: Thorfinn-sprint_1
+  - first:
+      213: 6656426937517583792
+    second: Thorfinn-sprint_2
+  - first:
+      213: -8243650553470315376
+    second: Thorfinn-sprint_3
+  - first:
+      213: -3072783609194250954
+    second: Thorfinn-sprint_4
+  - first:
+      213: -3336016425040766908
+    second: Thorfinn-sprint_5
+  - first:
+      213: 205875149719821964
+    second: Thorfinn-sprint_6
+  - first:
+      213: -6411794658809136353
+    second: Thorfinn-sprint_7
+  - first:
+      213: 5039660771624003827
+    second: Thorfinn-sprint_8
+  - first:
+      213: 8388630081050985756
+    second: Thorfinn-sprint_9
+  - first:
+      213: 2711310351171778700
+    second: Thorfinn-sprint_10
+  - first:
+      213: -5916259308251943325
+    second: Thorfinn-sprint_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thorfinn-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 557
+        width: 243
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce99b0cacd453ef0800000000000000
+      internalID: -129111481098068279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 542
+        width: 228
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75d51db64cced1f0800000000000000
+      internalID: -1018151861547051651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 542
+        width: 221
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bda31c4801606c50800000000000000
+      internalID: 6656426937517583792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 542
+        width: 212
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09413f39f7ba89d80800000000000000
+      internalID: -8243650553470315376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 274
+        width: 200
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d755676974b55d0800000000000000
+      internalID: -3072783609194250954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 298
+        width: 225
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44893948cb614b1d0800000000000000
+      internalID: -3336016425040766908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 274
+        width: 208
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e512f9b5a6bd200800000000000000
+      internalID: 205875149719821964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 274
+        width: 223
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b3fec9abab407a0800000000000000
+      internalID: -6411794658809136353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 16
+        width: 208
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ae1145c870f540800000000000000
+      internalID: 5039660771624003827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 10
+        width: 232
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1543352d966a6470800000000000000
+      internalID: 8388630081050985756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 7
+        width: 197
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88fe65366280a520800000000000000
+      internalID: 2711310351171778700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thorfinn-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 10
+        width: 243
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e6b8c318935eda0800000000000000
+      internalID: -5916259308251943325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thorfinn-sprint_0: -129111481098068279
+      Thorfinn-sprint_1: -1018151861547051651
+      Thorfinn-sprint_10: 2711310351171778700
+      Thorfinn-sprint_11: -5916259308251943325
+      Thorfinn-sprint_2: 6656426937517583792
+      Thorfinn-sprint_3: -8243650553470315376
+      Thorfinn-sprint_4: -3072783609194250954
+      Thorfinn-sprint_5: -3336016425040766908
+      Thorfinn-sprint_6: 205875149719821964
+      Thorfinn-sprint_7: -6411794658809136353
+      Thorfinn-sprint_8: 5039660771624003827
+      Thorfinn-sprint_9: 8388630081050985756
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
