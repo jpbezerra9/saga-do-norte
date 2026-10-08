@@ -8,7 +8,7 @@ public class GerenciadorDeMenu : MonoBehaviour
     {
         Debug.Log("Iniciando o Prólogo...");
         // Carrega exatamente o nome da cena do Prólogo
-        SceneManager.LoadScene("Prologo_Batalha");
+        SceneManager.LoadScene("MapaEstrategico");
     }
 
     // Função chamada ao clicar no botão Sair

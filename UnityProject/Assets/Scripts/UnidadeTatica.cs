@@ -1,43 +1,51 @@
 using System.Collections;
 using UnityEngine;
 
-// Ficha de RPG do personagem (Thorfinn, Thors, Askeladd, etc.)
 public class UnidadeTatica : MonoBehaviour
 {
     [Header("Identificação")]
-    public string nomePersonagem;
+    public string nomePersonagem = "Thorfinn";
+    public bool ehJogador = true;
 
     [Header("Alvo do Combate")]
-    public Transform alvoAtual; // Arraste o GameObject do Inimigo/Player aqui!
+    public UnidadeTatica alvoAtual;
 
-    [Header("Componentes de Animação")]
+    [Header("Componentes de Animação e Visual")]
     public Animator anim;
-    private Vector3 posicaoInicial;
-    private SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
+    [HideInInspector] public Vector3 posicaoInicial;
 
     [Header("Atributos Base")]
     public float VidaMaxima = 100f;
     public float vidaAtual;
-    
+
     public float estaminaMaxima = 100f;
     public float estaminaAtual;
-    
+
     public float forca = 10f;
     public float agilidade = 5f;
 
-    [Header("Estados de Combate (Memória)")]
+    [Header("Estados de Combate")]
     public bool estaDefendendo = false;
-    public bool preparouEsquiva = false; 
-    public static bool acaoEmAndamento = false; // Trava global para impedir que ações se sobreponham
+    public bool preparouEsquiva = false;
+    public bool estaMorto = false;
+    public static bool acaoEmAndamento = false;
 
-    // --- Atributos Dinâmicos ---
-    public float ChanceDeEsquiva { get { return agilidade * 5f; } }
-    public float ChanceDeCritico { get { return agilidade * 2f; } }
-    public float DanoCritico { get { return forca * 1.5f; } }
-    public float ReducaoDeDanoPassiva { get { return VidaMaxima * 0.001f; } }
+    public float ChanceDeEsquiva => agilidade * 5f;
+    public float ChanceDeCritico => agilidade * 2f;
+    public float DanoCritico => forca * 1.5f;
+    public float ReducaoDeDanoPassiva => VidaMaxima * 0.001f;
 
     void Start()
     {
+        if (ehJogador && GerenciadorDeProgresso.Instancia != null)
+        {
+            forca = GerenciadorDeProgresso.Instancia.forcaBase;
+            agilidade = GerenciadorDeProgresso.Instancia.agilidadeBase;
+            VidaMaxima = GerenciadorDeProgresso.Instancia.vidaMaximaBase;
+            estaminaMaxima = GerenciadorDeProgresso.Instancia.estaminaMaximaBase;
+        }
+
         vidaAtual = VidaMaxima;
         estaminaAtual = estaminaMaxima;
 
@@ -47,189 +55,101 @@ public class UnidadeTatica : MonoBehaviour
 
         if (anim == null)
         {
-            Debug.LogError("ERRO CRÍTICO: O Animator não está atribuído no GameObject " + gameObject.name);
+            Debug.LogError("ERRO CRÍTICO: Animator não foi encontrado no GameObject " + gameObject.name);
         }
     }
 
-    // ==========================================
-    // AÇÕES DOS BOTÕES DA UI (O SEU TURNO)
-    // ==========================================
-
-    public void BotaoAtaqueLeve()
+    public void SetSprint(bool valor)
     {
-        if (acaoEmAndamento) return; // Bloqueia se já houver uma animação rodando
-        
-        estaDefendendo = false;
-        preparouEsquiva = false;
-        
-        float danoFinal = forca;
-        if (Random.Range(0f, 100f) <= ChanceDeCritico) danoFinal = DanoCritico;
-
-        StartCoroutine(RotinaDeAtaque(alvoAtual, "LightAttack", danoFinal));
+        if (anim == null) return;
+        anim.SetBool("isSprinting", valor);
+        anim.SetBool("IsSprinting", valor);
     }
 
-    public void BotaoAtaquePesado()
+    public void TriggerMorte()
     {
-        if (acaoEmAndamento) return;
-
-        estaDefendendo = false;
-        preparouEsquiva = false;
-        
-        float danoFinal = forca * 1.3f; 
-        if (Random.Range(0f, 100f) <= ChanceDeCritico) danoFinal = DanoCritico * 1.3f;
-
-        StartCoroutine(RotinaDeAtaque(alvoAtual, "HeavyAttack", danoFinal));
+        if (anim == null || estaMorto) return;
+        estaMorto = true;
+        anim.SetBool("isDead", true);
+        anim.SetTrigger("Death");
     }
 
-    public void BotaoDefesa()
+    public void TriggerVitoria()
     {
-        if (acaoEmAndamento) return;
-
-        estaDefendendo = true;
-        preparouEsquiva = false;
-        Debug.Log(nomePersonagem + " entrou em postura de defesa.");
+        if (anim == null) return;
+        anim.SetTrigger("Victory");
     }
 
-    public void BotaoEsquiva()
+    public void ReceberAtaque(float danoRecebido, UnidadeTatica atacante)
     {
-        if (acaoEmAndamento) return;
-
-        preparouEsquiva = true; 
-        estaDefendendo = false;
-        Debug.Log(nomePersonagem + " focou na esquiva para o próximo turno.");
+        StartCoroutine(ProcessarReacaoDano(danoRecebido, atacante));
     }
 
-    // ==========================================
-    // MOVIMENTAÇÃO E ANIMAÇÃO (CORROTINA)
-    // ==========================================
-    private IEnumerator RotinaDeAtaque(Transform alvo, string triggerAtaque, float danoCalculado)
+    private IEnumerator ProcessarReacaoDano(float danoRecebido, UnidadeTatica atacante)
     {
-        if (alvo == null) yield break;
+        if (estaMorto) yield break;
 
-        acaoEmAndamento = true; // Trava as ações enquanto executa o ataque completo
-
-        // 1. Inicia o Sprint e corre até o inimigo
-        if (anim != null) anim.SetBool("isSprinting", true);
-        
-        float direcao = (alvo.position.x > transform.position.x) ? -1.5f : 1.5f;
-        Vector3 posicaoAlvo = new Vector3(alvo.position.x + direcao, alvo.position.y, alvo.position.z); 
-        
-        while (Vector3.Distance(transform.position, posicaoAlvo) > 0.1f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, posicaoAlvo, 7f * Time.deltaTime);
-            yield return null;
-        }
-
-        // 2. Chegou no inimigo. Para o sprint e aciona o ataque
-        if (anim != null) anim.SetBool("isSprinting", false);
-        
-        if (anim != null && anim.runtimeAnimatorController != null)
-        {
-            anim.SetTrigger(triggerAtaque);
-        }
-
-        // Aguarda a animação de ataque dar o golpe visual
-        yield return new WaitForSeconds(0.3f);
-
-        // 3. Aplica o dano no alvo
-        Debug.Log(nomePersonagem + " tentou bater em: " + alvo.name);
-        
-        UnidadeTatica statusAlvo = alvo.GetComponent<UnidadeTatica>();
-        if (statusAlvo != null)
-        {
-            statusAlvo.ReceberAtaque(danoCalculado);
-        }
-
-        // Tempo de permanência no alvo após golpear
-        yield return new WaitForSeconds(0.7f);
-
-        // 4. Inicia o Sprint e volta para a posição inicial de costas
-        if (anim != null) anim.SetBool("isSprinting", true);
-        if (spriteRenderer != null) spriteRenderer.flipX = true; 
-
-        while (Vector3.Distance(transform.position, posicaoInicial) > 0.1f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, posicaoInicial, 7f * Time.deltaTime);
-            yield return null;
-        }
-
-        // 5. Chegou na base. Volta pro Idle.
-        if (anim != null) anim.SetBool("isSprinting", false);
-        if (spriteRenderer != null) spriteRenderer.flipX = false; 
-
-        acaoEmAndamento = false; // Libera o turno para novas ações ou contra-ataques
-    }
-
-    // ==========================================
-    // REAÇÕES (QUANDO ESTA UNIDADE TOMA DANO)
-    // ==========================================
-    public void ReceberAtaque(float danoRecebido)
-    {
-        StartCoroutine(ProcessarReacaoDano(danoRecebido));
-    }
-
-    private IEnumerator ProcessarReacaoDano(float danoRecebido)
-    {
-        if (vidaAtual <= 0) yield break;
-
-        yield return null; 
+        yield return null;
 
         float chanceFinalEsquiva = preparouEsquiva ? 100f : ChanceDeEsquiva;
         float rolagemEsquiva = Random.Range(0f, 100f);
-        preparouEsquiva = false; 
+        preparouEsquiva = false;
 
-        // 1. Checagem de Esquiva 
         if (rolagemEsquiva <= chanceFinalEsquiva)
         {
             if (anim != null) anim.SetTrigger("Dodge");
-            Debug.Log(nomePersonagem + " -> Acionou TRIGGER: Dodge");
+            Debug.Log(nomePersonagem + " esquivou do ataque!");
 
-            if (Random.Range(0f, 100f) <= ChanceDeCritico) 
+            if (Random.Range(0f, 100f) <= ChanceDeCritico && atacante != null && !atacante.estaMorto)
             {
-                StartCoroutine(RotinaContraAtaque());
+                StartCoroutine(RotinaContraAtaque(atacante));
             }
-            yield break; 
+            yield break;
         }
 
-        // 2. Checagem de Defesa 
         if (estaDefendendo)
         {
             if (anim != null) anim.SetTrigger("Defend");
-            Debug.Log(nomePersonagem + " -> Acionou TRIGGER: Defend");
-            danoRecebido = danoRecebido * 0.5f; 
-            estaDefendendo = false; 
+            danoRecebido *= 0.5f;
+            estaDefendendo = false;
         }
         else
         {
-            // 3. Acerto Direto (Hurt)
             if (anim != null) anim.SetTrigger("Hurt");
-            Debug.Log(nomePersonagem + " -> Acionou TRIGGER: Hurt no Animator!");
-
             danoRecebido -= ReducaoDeDanoPassiva;
-            if (danoRecebido < 1f) danoRecebido = 1f; 
-
+            if (danoRecebido < 1f) danoRecebido = 1f;
             vidaAtual -= danoRecebido;
-            Debug.Log(nomePersonagem + " recebeu " + danoRecebido + " de dano. Vida restante: " + vidaAtual);
         }
 
         if (vidaAtual <= 0)
         {
             vidaAtual = 0;
-            if (anim != null) anim.SetBool("isDead", true);
-            Debug.Log(nomePersonagem + " MORREU!");
+            TriggerMorte();
         }
     }
 
-    // ==========================================
-    // CORROTINA DE CONTRA-ATAQUE
-    // ==========================================
-    private IEnumerator RotinaContraAtaque()
+    private IEnumerator RotinaContraAtaque(UnidadeTatica atacante)
     {
-        acaoEmAndamento = true;
-        yield return new WaitForSeconds(0.6f); 
+        yield return new WaitForSeconds(0.3f);
         if (anim != null) anim.SetTrigger("CounterAttack");
-        Debug.Log(nomePersonagem + " -> Acionou TRIGGER: CounterAttack");
-        yield return new WaitForSeconds(0.5f);
-        acaoEmAndamento = false;
+
+        yield return new WaitForSeconds(0.4f);
+
+        if (atacante != null && !atacante.estaMorto)
+        {
+            float danoContra = forca * 0.5f;
+            atacante.vidaAtual -= danoContra;
+
+            if (atacante.vidaAtual <= 0)
+            {
+                atacante.vidaAtual = 0;
+                atacante.TriggerMorte();
+            }
+            else
+            {
+                if (atacante.anim != null) atacante.anim.SetTrigger("Hurt");
+            }
+        }
+        yield return new WaitForSeconds(0.4f);
     }
 }

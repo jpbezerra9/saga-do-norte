@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: d961de32d40f9ef48ab2e65bb5da750e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -64044612211763014
+    second: Thors-sprint_0
+  - first:
+      213: 5432645277362895766
+    second: Thors-sprint_1
+  - first:
+      213: 161460817188927522
+    second: Thors-sprint_2
+  - first:
+      213: 3242805882539533858
+    second: Thors-sprint_3
+  - first:
+      213: -7947880779127202664
+    second: Thors-sprint_4
+  - first:
+      213: -4440482184798565494
+    second: Thors-sprint_5
+  - first:
+      213: 7225361845589453651
+    second: Thors-sprint_6
+  - first:
+      213: -5080918044020581046
+    second: Thors-sprint_7
+  - first:
+      213: -2497472864943211888
+    second: Thors-sprint_8
+  - first:
+      213: 7786440487156604763
+    second: Thors-sprint_9
+  - first:
+      213: -4081248712081658169
+    second: Thors-sprint_10
+  - first:
+      213: -2153148880244952504
+    second: Thors-sprint_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thors-sprint_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 617
+        width: 247
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab81757b3c77c1ff0800000000000000
+      internalID: -64044612211763014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 613
+        width: 278
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b3beba812a46b40800000000000000
+      internalID: 5432645277362895766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 607
+        width: 291
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228b0bdf1cf9d3200800000000000000
+      internalID: 161460817188927522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 609
+        width: 297
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226e050e4c2c00d20800000000000000
+      internalID: 3242805882539533858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 311
+        width: 299
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cd7f28a8473b190800000000000000
+      internalID: -7947880779127202664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 310
+        width: 299
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b81a7cafc3062c0800000000000000
+      internalID: -4440482184798565494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_6
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 306
+        width: 300
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b25042154a54460800000000000000
+      internalID: 7225361845589453651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 311
+        width: 292
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dd74575f3fc79b0800000000000000
+      internalID: -5080918044020581046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3
+        width: 253
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09af1e859a1375dd0800000000000000
+      internalID: -2497472864943211888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_9
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 7
+        width: 291
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f50b56e5efe0c60800000000000000
+      internalID: 7786440487156604763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 3
+        width: 288
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce2a547bed7c57c0800000000000000
+      internalID: -4081248712081658169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-sprint_11
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3
+        width: 258
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8423874508a7e12e0800000000000000
+      internalID: -2153148880244952504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thors-sprint_0: -64044612211763014
+      Thors-sprint_1: 5432645277362895766
+      Thors-sprint_10: -4081248712081658169
+      Thors-sprint_11: -2153148880244952504
+      Thors-sprint_2: 161460817188927522
+      Thors-sprint_3: 3242805882539533858
+      Thors-sprint_4: -7947880779127202664
+      Thors-sprint_5: -4440482184798565494
+      Thors-sprint_6: 7225361845589453651
+      Thors-sprint_7: -5080918044020581046
+      Thors-sprint_8: -2497472864943211888
+      Thors-sprint_9: 7786440487156604763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

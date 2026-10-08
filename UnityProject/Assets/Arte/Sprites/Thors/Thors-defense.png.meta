@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 07ef6b30200597d418933ae1066d80ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4392154817799596457
+    second: Thors-defense_0
+  - first:
+      213: 2618210964959998432
+    second: Thors-defense_1
+  - first:
+      213: -8469031192807601171
+    second: Thors-defense_2
+  - first:
+      213: 4881171748183427133
+    second: Thors-defense_3
+  - first:
+      213: 2823474269829071035
+    second: Thors-defense_4
+  - first:
+      213: -4068081379730022662
+    second: Thors-defense_5
+  - first:
+      213: 7749619182181581665
+    second: Thors-defense_6
+  - first:
+      213: -8459543618031577567
+    second: Thors-defense_7
+  - first:
+      213: -7098832489053519811
+    second: Thors-defense_8
+  - first:
+      213: -8616363125035613675
+    second: Thors-defense_9
+  - first:
+      213: 4342142930587379616
+    second: Thors-defense_10
+  - first:
+      213: 1565787372072229249
+    second: Thors-defense_11
+  - first:
+      213: 369324002452942690
+    second: Thors-defense_12
+  - first:
+      213: -6254089967021391068
+    second: Thors-defense_13
+  - first:
+      213: -7984138062452950226
+    second: Thors-defense_14
+  - first:
+      213: 2223053824958588283
+    second: Thors-defense_15
+  - first:
+      213: -2872613558295804070
+    second: Thors-defense_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thors-defense_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 564
+        width: 252
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756d88eb67eeb03c0800000000000000
+      internalID: -4392154817799596457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 563
+        width: 257
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e139713001c55420800000000000000
+      internalID: 2618210964959998432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_2
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 562
+        width: 260
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb00014005f77a80800000000000000
+      internalID: -8469031192807601171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 562
+        width: 260
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38452ae7d76db340800000000000000
+      internalID: 4881171748183427133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 280
+        width: 261
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb00e9593eefe2720800000000000000
+      internalID: 2823474269829071035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 280
+        width: 257
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe9fcbe9854b87c0800000000000000
+      internalID: -4068081379730022662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_6
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 279
+        width: 253
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1638c72469d2c8b60800000000000000
+      internalID: 7749619182181581665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_11
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 279
+        width: 226
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189582aa15bcab510800000000000000
+      internalID: 1565787372072229249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4230b528f420539a0800000000000000
+      internalID: -6254089967021391068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 261
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bf0d5ebb4a23190800000000000000
+      internalID: -7984138062452950226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_15
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2
+        width: 273
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75ea31fcafd9de10800000000000000
+      internalID: 2223053824958588283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-defense_16
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 3
+        width: 254
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57cec0403d6228d0800000000000000
+      internalID: -2872613558295804070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef24afff72a02c54eace998b91819bfa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thors-defense_0: -4392154817799596457
+      Thors-defense_1: 2618210964959998432
+      Thors-defense_10: 4342142930587379616
+      Thors-defense_11: 1565787372072229249
+      Thors-defense_12: 369324002452942690
+      Thors-defense_13: -6254089967021391068
+      Thors-defense_14: -7984138062452950226
+      Thors-defense_15: 2223053824958588283
+      Thors-defense_16: -2872613558295804070
+      Thors-defense_2: -8469031192807601171
+      Thors-defense_3: 4881171748183427133
+      Thors-defense_4: 2823474269829071035
+      Thors-defense_5: -4068081379730022662
+      Thors-defense_6: 7749619182181581665
+      Thors-defense_7: -8459543618031577567
+      Thors-defense_8: -7098832489053519811
+      Thors-defense_9: -8616363125035613675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

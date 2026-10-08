@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 9f3b4d6e3a073da40828bdf51f5c1935
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2888488588642845461
+    second: Thors-counterattack_0
+  - first:
+      213: -8951476955882534226
+    second: Thors-counterattack_1
+  - first:
+      213: -5485751045781132060
+    second: Thors-counterattack_2
+  - first:
+      213: -8394448809909503283
+    second: Thors-counterattack_3
+  - first:
+      213: 3001836609917524688
+    second: Thors-counterattack_4
+  - first:
+      213: 8318689122202562387
+    second: Thors-counterattack_5
+  - first:
+      213: 4323191722527183852
+    second: Thors-counterattack_6
+  - first:
+      213: -6055204262972114624
+    second: Thors-counterattack_7
+  - first:
+      213: -1581623071317115609
+    second: Thors-counterattack_8
+  - first:
+      213: 4187948393468888033
+    second: Thors-counterattack_9
+  - first:
+      213: -7818945160936190273
+    second: Thors-counterattack_10
+  - first:
+      213: -5143038397498023278
+    second: Thors-counterattack_11
+  - first:
+      213: -7766855905557985974
+    second: Thors-counterattack_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thors-counterattack_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 620
+        width: 219
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec7c28bee60ae7d0800000000000000
+      internalID: -2888488588642845461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 620
+        width: 275
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaac685b227f5c380800000000000000
+      internalID: -8951476955882534226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 620
+        width: 218
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ececf51d72bed3b0800000000000000
+      internalID: -5485751045781132060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_3
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 620
+        width: 219
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcab428784de08b80800000000000000
+      internalID: -8394448809909503283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 308
+        width: 273
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da95e70e7aa8a920800000000000000
+      internalID: 3001836609917524688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 309
+        width: 282
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f2acdaeabe17370800000000000000
+      internalID: 8318689122202562387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_6
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 307
+        width: 298
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3542567ff0ffb30800000000000000
+      internalID: 4323191722527183852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_7
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 308
+        width: 294
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049bd1ffdc797fba0800000000000000
+      internalID: -6055204262972114624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 288
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3816a00e49e1a30800000000000000
+      internalID: 4187948393468888033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 12
+        width: 290
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe832c7dc68d7390800000000000000
+      internalID: -7818945160936190273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 6
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292afe293d140a8b0800000000000000
+      internalID: -5143038397498023278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-counterattack_12
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 6
+        width: 250
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bbff64664b7894ca83a7d69e6362f4
+      internalID: -7766855905557985974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 109623bd7edcd8b4f8c22a04a9e2ede9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":300.0,"y":298.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Thors-counterattack_0: -2888488588642845461
+      Thors-counterattack_1: -8951476955882534226
+      Thors-counterattack_10: -7818945160936190273
+      Thors-counterattack_11: -5143038397498023278
+      Thors-counterattack_12: -7766855905557985974
+      Thors-counterattack_2: -5485751045781132060
+      Thors-counterattack_3: -8394448809909503283
+      Thors-counterattack_4: 3001836609917524688
+      Thors-counterattack_5: 8318689122202562387
+      Thors-counterattack_6: 4323191722527183852
+      Thors-counterattack_7: -6055204262972114624
+      Thors-counterattack_8: -1581623071317115609
+      Thors-counterattack_9: 4187948393468888033
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

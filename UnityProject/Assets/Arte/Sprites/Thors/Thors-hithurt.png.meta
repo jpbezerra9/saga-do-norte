@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: eddd65118f8816749856f2cd760e7bd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1625888318735237579
+    second: Thors-hithurt_0
+  - first:
+      213: 5991691445501204622
+    second: Thors-hithurt_1
+  - first:
+      213: -3335725887193479664
+    second: Thors-hithurt_2
+  - first:
+      213: 1692340895364316233
+    second: Thors-hithurt_3
+  - first:
+      213: 328650451637269411
+    second: Thors-hithurt_4
+  - first:
+      213: -8430944833617144829
+    second: Thors-hithurt_5
+  - first:
+      213: 1952641853593300077
+    second: Thors-hithurt_6
+  - first:
+      213: -2397363640633502919
+    second: Thors-hithurt_7
+  - first:
+      213: 5447677186284208425
+    second: Thors-hithurt_8
+  - first:
+      213: -4950216926707517538
+    second: Thors-hithurt_9
+  - first:
+      213: -8137780304254267841
+    second: Thors-hithurt_10
+  - first:
+      213: 9131324032675365293
+    second: Thors-hithurt_11
+  - first:
+      213: 1753852645561144535
+    second: Thors-hithurt_12
+  - first:
+      213: -4860916219561795707
+    second: Thors-hithurt_13
+  - first:
+      213: -1995069459581206118
+    second: Thors-hithurt_14
+  - first:
+      213: -4470952172382164337
+    second: Thors-hithurt_15
+  - first:
+      213: 7294340474352156509
+    second: Thors-hithurt_16
+  - first:
+      213: -1268489282252866081
+    second: Thors-hithurt_17
+  - first:
+      213: 2025638655460029012
+    second: Thors-hithurt_18
+  - first:
+      213: 7802028187905928769
+    second: Thors-hithurt_19
+  - first:
+      213: -670386949494661492
+    second: Thors-hithurt_20
+  - first:
+      213: 3616890835747620011
+    second: Thors-hithurt_21
+  - first:
+      213: -9009644703726552630
+    second: Thors-hithurt_22
+  - first:
+      213: -1059396423594277216
+    second: Thors-hithurt_23
+  - first:
+      213: 1739539734166562034
+    second: Thors-hithurt_24
+  - first:
+      213: -8167802238864559110
+    second: Thors-hithurt_25
+  - first:
+      213: -6022097693036524863
+    second: Thors-hithurt_26
+  - first:
+      213: 2054130550125709189
+    second: Thors-hithurt_27
+  - first:
+      213: -6848080158354284097
+    second: Thors-hithurt_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Thors-hithurt_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 621
+        width: 247
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1cba2cfc0509610800000000000000
+      internalID: 1625888318735237579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 615
+        width: 261
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8898d4df93c62350800000000000000
+      internalID: 5991691445501204622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_2
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 615
+        width: 253
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01602c1aafe15b1d0800000000000000
+      internalID: -3335725887193479664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_4
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 620
+        width: 297
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a37c1138d99f8400800000000000000
+      internalID: 328650451637269411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 306
+        width: 295
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da14a90f3daf8be70800000000000000
+      internalID: 9131324032675365293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 306
+        width: 294
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d41d0750bfe65810800000000000000
+      internalID: 1753852645561144535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 306
+        width: 288
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f951ad37e8a8cb0800000000000000
+      internalID: -4860916219561795707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_14
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 306
+        width: 289
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918e6795e61054e0800000000000000
+      internalID: -1995069459581206118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 257
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af376dc732326ae80800000000000000
+      internalID: -8167802238864559110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_26
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 6
+        width: 259
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cacbdbfd063d6ca0800000000000000
+      internalID: -6022097693036524863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_27
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 6
+        width: 265
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58745822adcb18c10800000000000000
+      internalID: 2054130550125709189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Thors-hithurt_28
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 5
+        width: 257
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb164efe06bb6f0a0800000000000000
+      internalID: -6848080158354284097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f2b056c506ce5a24c9f7b6b1340564af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Thors-hithurt_0: 1625888318735237579
+      Thors-hithurt_1: 5991691445501204622
+      Thors-hithurt_10: -8137780304254267841
+      Thors-hithurt_11: 9131324032675365293
+      Thors-hithurt_12: 1753852645561144535
+      Thors-hithurt_13: -4860916219561795707
+      Thors-hithurt_14: -1995069459581206118
+      Thors-hithurt_15: -4470952172382164337
+      Thors-hithurt_16: 7294340474352156509
+      Thors-hithurt_17: -1268489282252866081
+      Thors-hithurt_18: 2025638655460029012
+      Thors-hithurt_19: 7802028187905928769
+      Thors-hithurt_2: -3335725887193479664
+      Thors-hithurt_20: -670386949494661492
+      Thors-hithurt_21: 3616890835747620011
+      Thors-hithurt_22: -9009644703726552630
+      Thors-hithurt_23: -1059396423594277216
+      Thors-hithurt_24: 1739539734166562034
+      Thors-hithurt_25: -8167802238864559110
+      Thors-hithurt_26: -6022097693036524863
+      Thors-hithurt_27: 2054130550125709189
+      Thors-hithurt_28: -6848080158354284097
+      Thors-hithurt_3: 1692340895364316233
+      Thors-hithurt_4: 328650451637269411
+      Thors-hithurt_5: -8430944833617144829
+      Thors-hithurt_6: 1952641853593300077
+      Thors-hithurt_7: -2397363640633502919
+      Thors-hithurt_8: 5447677186284208425
+      Thors-hithurt_9: -4950216926707517538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
